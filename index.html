@@ -25,7 +25,7 @@
       transition: opacity var(--transition-duration) ease-in;
     }
     .invisible {
-      opacity: 0;
+      opacity: 0 !important;
     }
     main {
       display: flex;
@@ -71,7 +71,7 @@
 </main>
 <script type="text/javascript">
   (() => {
-    const FADEIN_DELAY = 500;
+    const FADEIN_DELAY = 2000;
     const EMAIL_ADDRESS = "koen@koens.email";
 
     main();
